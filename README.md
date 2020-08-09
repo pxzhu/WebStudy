@@ -1,5 +1,5 @@
 #### Web Study with 생활코딩
-#### HTML, CSS, JAVASCRIPT
+#### HTML, CSS, JAVASCRIPT, Node.js
 
 - 2020-07-26
 
@@ -36,3 +36,12 @@
 >Library(> jQuery )    
 >Framework    
 >UI, API    
+
+- 2020-08-09
+
+>Syntax(> Number, String, Variable, Template Literal )    
+>URL(> protocol, host[domain], port, path, query string )    
+>CRUD(> Create, Read, Update, Delete )    
+>DataType(> Boolean, Comparison operator, Conditional statement, Flow control statement, Array )    
+>Not Found    
+>Function(> 생성, 호출, 입력, 출력, 인자, 매개변수 )    
