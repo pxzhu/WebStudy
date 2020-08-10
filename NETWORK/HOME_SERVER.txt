@@ -1,0 +1,23 @@
+ - Router
+   - IP Address
+     - Dynamic
+       - DHCP(Dynamic Host Configuration Protocol)
+     - Static
+   - WAN(Wide Area Network): Public IP Address
+   - LAN(Local Area Network): Private IP Address
+     - Gateway Address
+     - Router Address
+
+ - NAT(Network Address Translation)
+   - Private(Request) -> Router(IP Translation) -> Public(Get Data) -> Router(IP Translation) -> Private
+
+ - Port
+   - 0 ~ 1023: Well-known port
+   - 22: SSH
+   - 80: HTTP, Web Server
+   - 8080: Web Server
+   - 1024 ~ 65535
+
+   - Port Forwarding
+     - Public(:8080) -> Private(192.168.0.3:80)
+     - Public(:8081) -> Private(192.168.0.4:80)
