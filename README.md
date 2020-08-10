@@ -45,3 +45,13 @@
 >DataType(> Boolean, Comparison operator, Conditional statement, Flow control statement, Array )    
 >Not Found    
 >Function(> 생성, 호출, 입력, 출력, 인자, 매개변수 )    
+
+- 2020-08-10
+
+>Syncronous, Asyncronous(> Callback )    
+>Package(> Package Manager, PM2[https://pm2.keymetrics.io/] )    
+>File(> GET, POST, File Create, Redirection, Create, Read, Update, Change, Save, Delete )    
+>Object(> Form, Loop, Object Oriented Programing, Refactoring )    
+>Module    
+>Security(> 입력, 출력[https://www.npmjs.com/package/sanitize-html] )    
+>API(> Create Server )    

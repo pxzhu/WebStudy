@@ -1,0 +1,5 @@
+**NPM json download
+$ npm init
+
+**NPM Install
+$ npm install -S sanitize-html
