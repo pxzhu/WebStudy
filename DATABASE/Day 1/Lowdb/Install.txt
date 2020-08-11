@@ -1,0 +1,5 @@
+**Lowdb Install
+$ npm install -s lowdb
+
+**shortid Install
+$ npm install -s shortid

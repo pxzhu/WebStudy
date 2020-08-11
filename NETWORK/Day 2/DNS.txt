@@ -1,0 +1,31 @@
+ - DNS(Domain Name System)
+   - IP Address
+   - hosts(file)
+   - Security
+     - Phishing
+   - Client -> Hosts -> DNS -> Response -> Server
+   - Public DNS
+   - Root -> Top-level -> Second-level -> ... -> Sub
+   - DNS Register
+     - ICANN(Root name server)
+       - a.root-servers.net: .
+         - com NS a.gtld-servers.net
+     - Registry 등록소(Top-level domain)
+       - a.gtld-servers.net: .com.
+         - example.com NS a.iana-servers.net
+     - Registry 등록대행자(Authoritative name server)
+       - a.iana-servers.net: example.com.
+     - Registrant 등록자
+       - example.com NS a.iana-servers.net
+         - example.com A 93.184.216.34
+     - 개인 컴퓨터
+       - DNS server(168.126.63.1): 통신사의 DNS
+         - NS a.root-servers.net -> ICANN -> Top-level domain -> authoritative name server -> 93.184.216.34 -> 개인 컴퓨터
+   - nslookup
+     - cache
+     - $ nslookup -type=ns example.com
+     - $ nslookup example.com a.iana-servers.net
+   - My Domain Name(freenom.com)
+   - DNS record(1 Information)
+   - CNAME(Domain to Domain)
+   - Domain Mapping

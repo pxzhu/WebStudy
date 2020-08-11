@@ -1,0 +1,58 @@
+**PASSWORD
+$ SET PASSWORD = PASSWORD('new_password');
+
+
+**DATABASE CREATE
+$ CREATE DATABASE opentutorials;
+
+**DATABASE DELETE
+$ DROP DATABASE opentutorials;
+
+**DATABASE SHOW
+$ SHOW DATABASES;
+
+**DATABASE USE
+$ USE opentutorials;
+
+
+**TABLE CREATE
+$ CREATE TABLE topic(
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  title VARCHAR(100) NOT NULL,
+  description TEXT NULL,
+  created DATETIME NOT NULL,
+  author VARCHAR(30) NULL,
+  profile VARCHAR(100) NULL,
+  PRIMARY KEY(id)
+);
+
+**TABLE SHOW
+$ SHOW TABLES;
+
+**TABLE STRUCTURE
+$ DESC topic;
+
+**TABLE INSERT
+$ INSERT INTO topic (title, description, created, author, profile) 
+VALUES('MySQL', 'MySQL is ...', NOW(), 'pxzhu', 'developer');
+$ INSERT INTO topic (title, description, created, author, profile) 
+VALUES('ORACLE', 'ORACLE is ...', NOW(), 'pxzhu', 'developer');
+$ INSERT INTO topic (title, description, created, author, profile) 
+VALUES('SQL Server', 'SQL Server is ...', NOW(), 'phs', 'data administrator');
+$ INSERT INTO topic (title, description, created, author, profile) 
+VALUES('PostgreSQL', 'PostgreSQL is ...', NOW(), 'Matt', 'data scientist, developer');
+$ INSERT INTO topic (title, description, created, author, profile) 
+VALUES('MongoDB', 'MongoDB is ...', NOW(), 'pxzhu', 'developer');
+
+**TABLE READ
+$ SELECT * FROM topic;
+$ SELECT id, title, created, author FROM topic;
+$ SELECT id, title, created, author FROM topic WHERE author='pxzhu';
+$ SELECT id, title, created, author FROM topic WHERE author='pxzhu' ORDER BY id DESC;
+$ SELECT id, title, created, author FROM topic WHERE author='pxzhu' ORDER BY id DESC LIMIT 2;
+
+**TABLE UPDATE
+$ UPDATE topic SET description = 'Oracle is ...', title = 'Oracle' WHERE id = 2;
+
+**TABLE DELETE
+$ DELETE FROM topic WHERE id = 5;

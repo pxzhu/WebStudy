@@ -1,5 +1,5 @@
 #### Web Study with 생활코딩
-#### HTML, CSS, JAVASCRIPT, Node.js
+#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, MySQLm Lowdb
 
 - 2020-07-26
 
@@ -56,3 +56,12 @@
 >Security(> 입력, 출력[https://www.npmjs.com/package/sanitize-html] )    
 >API(> Create Server )    
 >Network(> Router, NAT, Port )    
+
+- 2020-08-11
+
+>DATABASE(> CREATE, SHOW, DROP, USE )    
+>TABLE(> CREATE, SHOW, DESC, INSERT INTO, VALUES, SELECT, FROM, WHERE, ORDER BY, LIMIT, UPDATE, DELETE )    
+>RDB(> JOIN, ON, AS )    
+>Lowdb(> get, push, write, value, assign, remove, shortid )    
+>Network(> DNS, HTTP )    
+>(>  )    
