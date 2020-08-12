@@ -1,0 +1,8 @@
+**display_errors setting
+ - Bitnami -> php -> -> php.ini -> display_errors = Off
+
+**opcache.enable setting
+ - Bitnami -> php -> -> php.ini -> opcache = 1 -> 0
+
+**time setting
+ - Bitnami -> php -> -> php.ini -> date.timezone = "UTF" -> Asis/Seoul

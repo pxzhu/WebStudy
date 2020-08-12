@@ -1,5 +1,5 @@
 #### Web Study with 생활코딩
-#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, MySQLm Lowdb
+#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, MySQL, Lowdb, PHP
 
 - 2020-07-26
 
@@ -63,4 +63,13 @@
 >TABLE(> CREATE, SHOW, DESC, INSERT INTO, VALUES, SELECT, FROM, WHERE, ORDER BY, LIMIT, UPDATE, DELETE )    
 >RDB(> JOIN, ON, AS )    
 >Lowdb(> get, push, write, value, assign, remove, shortid )    
->Network(> DNS, HTTP )    
+>Network(> DNS )    
+
+- 2020-08-12
+
+>Data Type(> Number, Arithmetic Operator, String, Concatenation, Variable )    
+>URL Parameter(> GET )    
+>Function(> strlen, nl2br, file_get_contents, Parameter, Argument, Redirection )    
+>Conditional(> Boolean, Comparison Operator, isset )    
+>Loop(> Array )    
+>CRUD    
