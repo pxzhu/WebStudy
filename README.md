@@ -1,5 +1,5 @@
 #### Web Study with 생활코딩
-#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, MySQL, Lowdb, PHP
+#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, DATABASE, MySQL, Lowdb, PHP
 
 - 2020-07-26
 
@@ -72,4 +72,38 @@
 >Function(> strlen, nl2br, file_get_contents, Parameter, Argument, Redirection )    
 >Conditional(> Boolean, Comparison Operator, isset )    
 >Loop(> Array )    
->CRUD    
+>CRU    
+
+- 2020-08-13
+
+>D    
+>Refactoring(> Moudle )    
+>Security(> XSS[Cross Site Scripting], URL[Directory] )    
+>UI, API    
+>HTTP(> Request, Response )    
+>Domain, HTTPS, SSL    
+>SQL JOIN(> LEFT OUTER, INNER, FULL OUTER, EXCLUSIVE )    
+
+- 공부 순서
+1. 생활코딩 - WEB1:HTML & Internet
+1. [바로실습] 생활코딩 - WEB2:CSS
+1. 생활코딩 - WEB2:JavaScript
+1. 생활코딩 - WEB2:Node.js
+1. 생활코딩 - WEB2:Home Server
+1. 생활코딩 - DATABASE1
+1. 생활코딩 - DATABASE2:MySQL
+1. 생활코딩 - DATABASE2:lowdb
+1. 생활코딩 - WEB2:DNS & HTTP
+1. [바로실습] 생활코딩 - WEB2:PHP
+1. 생활코딩 - SQL JOIN
+
+
+- 공부 예정
+1. 생활코딩 - 관계형 데이터 모델링
+1. 생활코딩 - 정규표현식
+1. 생활코딩 - WEB2:Node.js - MySQL
+1. 생활코딩 - WEB3:PHP & MySQL
+1. 생활코딩 - WEB3:Ajax
+1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
+1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
+1. 생활코딩 - 리액트 (React)

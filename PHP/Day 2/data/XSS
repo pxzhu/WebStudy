@@ -1,0 +1,4 @@
+XSS is Cross Site Scripting...
+<script>
+alert('babo');
+</script>

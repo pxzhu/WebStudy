@@ -1,0 +1,14 @@
+ - Response Message
+   - Request Message Header
+     - Request Line(HTTP 1.1 200 OK)
+     - Request Headers(Host)
+   - A blank line separates header * body
+   - Request Message Body
+ - Response Format
+   - status
+     - version: HTTP/1.1
+     - status code: 200
+     - phrase: OK
+   - headers: header field name, value
+   - blank line
+   - body
