@@ -84,7 +84,7 @@
 >Domain, HTTPS, SSL    
 >SQL JOIN(> LEFT OUTER, INNER, FULL OUTER, EXCLUSIVE )    
 
- 2020-08-14
+- 2020-08-14
 
 >Entity Relationship Design(> RDB_test[https://ovenapp.io/view/KUQSUMY3X7tY5udZ0oZCKVoUfkIZeHZN/] )    
 >ERD(> Entity: Table, Attribute: Column, Relation: PK, FK, Tuple: Row, ERDH[erd.yah.ac] )    
