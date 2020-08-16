@@ -1,0 +1,16 @@
+\w: alpha, numeric, "_" word
+\w*: alpha, numeric, "_" word 0 ~ 여러개
+[a-z]\w*: a ~ z, alpha, numeric, "_" word 0 ~ 여러개
+\w{5}: alpha, numeric, "_" word 5개
+[A-z0-9__]: alpha, numeric, "_" word
+\W: \w 아닌 나머지
+\d: 0 ~ 9 숫자
+\D \d 아닌 나머지
+\b.: 맨 앞 한개
+./b: 맨 뒤 한개
+\B: \b 아닌 나머지
+\A...: 시작점 3글자
+...\Z: 마지막 3글자
+\w+(?=X): 아무 글자 다음 X가 오면서 X는 포함하지 않는 글자
+\w+: 아무 글자
+\w+(?=\w): 아무 글자 다음 아무 글자가 오면서 그 글자는 포함하지 않는 글자

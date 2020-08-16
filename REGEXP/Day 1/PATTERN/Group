@@ -1,0 +1,4 @@
+.: Matches any character
+......: Matches 6 letters
+\.: . 문자를 의미함
+\..\.: . .사이의 any character를 의미함

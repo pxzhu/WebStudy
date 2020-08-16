@@ -96,6 +96,12 @@
 >Normalization(> 제1정규화[Atomic columns], 제2정규화[No partial dependencies], 제3정규화[No transitive dependencies] )    
 >DeNormalization(> JOIN 줄이기, Sharding )    
 
+- 2020-08-16
+
+>PATTERN(> Common, Anchor, Escape, Group, Square Brackets, Range, Caret, Sub, Quantifier, Character Class )    
+>Node.js - MySQL    
+>Escaping    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -109,10 +115,10 @@
 1. [바로실습] 생활코딩 - WEB2:PHP
 1. 생활코딩 - SQL JOIN
 1. 생활코딩 - 관계형 데이터 모델링
+1. 생활코딩 - 정규표현식(9/22)
+1. 생활코딩 - WEB2:Node.js - MySQL
 
 - 공부 예정
-1. 생활코딩 - 정규표현식
-1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
