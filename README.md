@@ -107,6 +107,11 @@
 >QUERY(> CONNECT, INSERT, ERROR, SELECT, UPDATE )    
 >Syntax(> mysqli_connect, mysqli_query, mysqli_fetch_array, mysqli_real_escape_string, settype, htmlspecialchars )    
 
+- 2020-08-20
+
+>QUERY(> DELETE )    
+>RDB    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
