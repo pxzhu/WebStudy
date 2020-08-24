@@ -112,6 +112,11 @@
 >QUERY(> DELETE )    
 >RDB    
 
+- 2020-08-24
+
+>Ajax(> fetch API, Anon Function, Fragment Identifier )    
+>fetch API(> polyfill )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -128,9 +133,9 @@
 1. 생활코딩 - 정규표현식(9/22)
 1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
+1. 생활코딩 - WEB3:Ajax
 
 - 공부 예정
-1. 생활코딩 - WEB3:Ajax
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
