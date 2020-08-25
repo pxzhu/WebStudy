@@ -117,6 +117,11 @@
 >Ajax(> fetch API, Anon Function, Fragment Identifier )    
 >fetch API(> polyfill )    
 
+- 2020-08-25
+
+>Math(> pow(n, m), round(n.x), ceil(n.x), floor(n.x), sqrt(n), random() )    
+>Conditional(> if, else if, else, logical operation, Boolean, while, for, break, continue, nesting )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -134,8 +139,8 @@
 1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
+1. [바로실습] 생활코딩 - 자바스크립트(Javascript)(26/104)
 
 - 공부 예정
-1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
