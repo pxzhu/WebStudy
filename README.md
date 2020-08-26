@@ -145,7 +145,7 @@
 1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
-1. [바로실습] 생활코딩 - 자바스크립트(Javascript)(26/104)
+1. [바로실습] 생활코딩 - 자바스크립트(Javascript)(39/104)
 
 - 공부 예정
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
