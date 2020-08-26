@@ -122,6 +122,12 @@
 >Math(> pow(n, m), round(n.x), ceil(n.x), floor(n.x), sqrt(n), random() )    
 >Conditional(> if, else if, else, logical operation, Boolean, while, for, break, continue, nesting )    
 
+- 2020-08-26
+
+>Function    
+>Array(> push, concat, unshift, splice, shift, pop, sort, reverse )    
+>Object(> this )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS

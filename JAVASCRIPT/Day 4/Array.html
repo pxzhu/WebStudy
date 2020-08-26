@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Array</title>
+</head>
+<body>
+  <script>
+    var member = ['pxzhu', 'phs', 'Matt'];
+    for(var i = 0; i < member.length; i++) {
+      document.write(member[i].toUpperCase() + '<br>');
+    }
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li.push('f');
+    alert(li);
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li = li.concat(['f', 'g']);
+    alert(li);
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li.unshift('z');
+    alert(li);
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li.splice(2, 0, 'B');
+    alert(li);
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li.shift();
+    alert(li);
+
+    var li = ['a', 'b', 'c', 'd', 'e'];
+    li.pop();
+    alert(li);
+
+    var li = ['c', 'e', 'a', 'b', 'd'];
+    li.sort();
+    alert(li);
+
+    var li = ['c', 'e', 'a', 'b', 'd'];
+    li.reverse();
+    alert(li);
+  </script>
+</body>
+</html>
