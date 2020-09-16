@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var vscope = 'global';
+    /*
+    function fscope() {
+      // 지역변수 vscope 선언
+      var vscope = 'local';
+      // 전역변수 vscope 변환
+      // vscope = 'local';
+      alert('함수 안 ' + vscope);
+    }
+    fscope();
+    alert('함수 밖 ' + vscope);
+    */
+    /*
+    function a() {
+      var i = 0;
+    }
+    for(var i = 0; i < 5; i++) {
+      a();
+      document.write(i);
+    }
+    */
+   // 익명함수
+    /*
+    (function() {
+      var MYAPP = {}
+      MYAPP.calculator = {
+        'left': null,
+        'right': null
+      }
+      MYAPP.coordinate = {
+        'left': null,
+        'right': null
+      }
+      MYAPP.calculator.left = 10;
+      MYAPP.calculator.right = 20;
+      function sum() {
+        return MYAPP.calculator.left + MYAPP.calculator.right;
+      }
+      document.write(sum());
+    }())
+    */
+    var i = 5;
+
+    function a() {
+      var i = 10;
+      b();
+    }
+    function b() {
+      document.write(i);
+    }
+    a();
+  </script>
+</body>
+</html>
