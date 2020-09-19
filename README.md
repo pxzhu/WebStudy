@@ -135,6 +135,11 @@
 >RegExp(> match, replace, option[i, g], capture, substitution )    
 >Variable(> local, global )    
 
+- 2020-09-19
+
+>Closure(> private variable )     
+>Function(> arguments, length, apply, Object-Oriented )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
