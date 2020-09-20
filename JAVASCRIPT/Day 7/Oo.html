@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Object-Oriented</title>
+</head>
+<body>
+  <script>
+    /*
+    var person = {}
+    person.name = 'pxzhu';
+    person.introduce = function() {
+      return 'My name is ' + this.name;
+    }
+    document.write(person.introduce());
+    */
+    /*
+    var person = {
+      'name': 'pxzhu',
+      'introduce': function() {
+        return 'My name is ' + this.name;
+      }
+    }
+    document.write(person.introduce());
+    */
+    /*
+    function Person() {}
+    var p1 = new Person();
+    p1.name = 'pxzhu';
+    p1.introduce = function() {
+      return 'My name is ' + this.name;
+    }
+    document.write(p1.introduce() + "<br>");
+
+    function Person() {}
+    var p2 = new Person();
+    p2.name = 'Matt';
+    p2.introduce = function() {
+      return 'My name is ' + this.name;
+    }
+    document.write(p2.introduce());
+    */
+    function Person(name) {
+      this.name = name;
+      this.introduce = function() {
+        return 'My name is ' + this.name;
+      }
+    }
+    var p1 = new Person('pxzhu');
+    document.write(p1.introduce() + "<br>");
+
+    var p2 = new Person('Matt');
+    document.write(p2.introduce());
+  </script>
+</body>
+</html>

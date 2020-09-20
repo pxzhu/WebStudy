@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inheritance</title>
+</head>
+<body>
+  <script>
+    /*
+    function Person(name) {
+      this.name = name;
+    }
+    Person.prototype.name = null;
+    Person.prototype.introduce = function() {
+      return 'My name is ' + this.name;
+    }
+    var p1 = new Person('pxzhu');
+    document.write(p1.introduce() + '<br>');
+    */
+    function Person(name) {
+      this.name = name;
+    }
+    Person.prototype.name = null;
+    Person.prototype.introduce = function() {
+      return 'My nickname is ' + this.name;
+    }
+
+    function Programmer(name) {
+      this.name = name;
+    }
+    Programmer.prototype = new Person();
+    Programmer.prototype.coding = function() {
+      return "Hello world";
+    }
+
+    function Designer(name) {
+      this.name = name;
+    }
+    Designer.prototype = new Person();
+    Designer.prototype.design = function() {
+      return "beautiful!";
+    }
+
+    var p1 = new Programmer('pxzhu');
+    document.write(p1.introduce() + "<br>");
+    document.write(p1.coding() + "<br>");
+
+    var p2 = new Designer('Matt');
+    document.write(p2.introduce() + "<br>");
+    document.write(p2.design() + "<br>");
+  </script>
+</body>
+</html>

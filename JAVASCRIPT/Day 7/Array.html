@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Array</title>
+</head>
+<body>
+  <script>
+    /*
+    var arr = new Array('daejeon', 'new york', 'seoul', 'ladarkh', 'pusan', 'Tusukuba');
+    function getRandomValueFromArray(arr) {
+      var index = Math.floor(arr.length * Math.random());
+      return arr[index];
+    }
+    document.write(getRandomValueFromArray(arr));
+    */
+    Array.prototype.rand = function() {
+      var index = Math.floor(this.length * Math.random());
+      return this[index];
+    }
+    var arr = new Array('daejeon', 'new york', 'seoul', 'ladarkh', 'pusan', 'Tusukuba');
+    document.write(arr.rand());
+  </script>
+</body>
+</html>
