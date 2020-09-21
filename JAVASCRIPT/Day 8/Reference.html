@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Reference</title>
+</head>
+<body>
+  <script>
+    /*
+    var a = {
+      'id': 1
+    };
+    var b = a;
+    b.id = 2;
+    document.write(a.id);
+    */
+    /*
+    var a = 1;
+    function func(b) {
+      b = 2;
+    }
+    func(a);
+    document.write(a);
+    */
+    /*
+    var a = {
+      'id': 1
+    };
+    function func(b) {
+      b = {
+        'id': 2
+      };
+    }
+    func(a);
+    document.write(a.id);
+    */
+    var a = {
+      'id': 1
+    };
+    function func(b) {
+      b.id = 2;
+    }
+    func(a);
+    document.write(a.id);
+  </script>
+</body>
+</html>

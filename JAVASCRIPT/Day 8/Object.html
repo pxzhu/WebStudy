@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Object</title>
+</head>
+<body>
+  <script>
+    Object.prototype.contain = function(neddle) {
+      for(var name in this) {
+        if(this[name] === neddle) {
+          return true;
+        }
+      }
+      return false;
+    }
+    var o = {
+      'name': 'pxzhu',
+      'city': 'daejeon'
+    }
+    document.write(o.contain('pxzhu'));
+    var a = [
+      'pxzhu',
+      'phs',
+      'Matt'
+    ]
+    document.write(a.contain('phs'));
+
+    for(var name in o) {
+      if(o.hasOwnProperty(name)) {
+        document.write(name);
+      }
+    }
+    for(var name in a) {
+      if(a.hasOwnProperty(name)) {
+        document.write(name);
+      }
+    }
+  </script>
+</body>
+</html>

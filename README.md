@@ -145,6 +145,10 @@
 >Object-Oriented(> Constructor, new, Global, this, Inheritance, prototype chain )     
 >Standard Built-in Object    
 
+- 2020-09-21
+
+>Object-Oriented(> Object, DataType, Reference )     
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -162,7 +166,7 @@
 1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
-1. [바로실습] 생활코딩 - 자바스크립트(Javascript)(92/104)
+1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 
 - 공부 예정
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
