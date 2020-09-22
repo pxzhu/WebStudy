@@ -1,5 +1,5 @@
 #### Web Study with 생활코딩, 구름
-#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, DATABASE, MySQL, Lowdb, PHP
+#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, DATABASE, MySQL, Lowdb, PHP, Express
 
 - 2020-07-26
 
@@ -149,6 +149,12 @@
 
 >Object-Oriented(> Object, DataType, Reference )     
 
+ 2020-09-22
+
+>middleware(> body-parser, compression, static, error[404, 500], router )    
+>security(> helmet, cookie, dependency )    
+>express-generator
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -167,8 +173,8 @@
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
+1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 
 - 공부 예정
-1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
 1. 한 눈에 읽는 루비 온 레일즈
