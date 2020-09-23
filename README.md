@@ -155,6 +155,10 @@
 >security(> helmet, cookie, dependency )    
 >express-generator
 
+- 2020-09-23
+
+>react-app(> [npm install -g create-react-app, create-react-app, npm install -g serve], npm run start, serve -s build )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -174,7 +178,7 @@
 1. 생활코딩 - WEB3:Ajax
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
+1. 생활코딩 - 리액트 (React)(9/39)
 
 - 공부 예정
-1. 생활코딩 - 리액트 (React)
 1. 한 눈에 읽는 루비 온 레일즈
