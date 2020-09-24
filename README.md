@@ -159,7 +159,7 @@
 
 >react-app(> [npm install -g create-react-app, create-react-app, npm install -g serve], npm run start, serve -s build )    
 
-- 2020-09-23
+- 2020-09-24
 
 >Component(> props, React Developer Tools )    
 
