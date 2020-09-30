@@ -1,0 +1,28 @@
+puts('Hello')
+puts("Hello, World!")
+puts("Hello 'World!'")
+puts('Hello "World!"')
+
+puts('Hello ' + 'world!')
+puts('Hello ' * 3)
+puts('Hello ' [0])
+puts('Hello ' [1])
+puts('Hello ' [2])
+puts('Hello ' [3])
+puts('Hello ' [4])
+puts('Hello ' [5])
+
+puts('hello world!'.capitalize())
+puts('hello world!'.upcase())
+puts('Hello world!'.length())
+print('Hello world!'.sub(' world!', ', Ruby!'))
+
+puts("pxzhu's \"tutorial\"")
+puts("\\")
+puts("Hello \nWorld!")
+puts("Hello \tworld")
+puts("\a")
+puts('Hello \nWorld!')
+
+puts(10 + 5)
+puts("10" + "5")
