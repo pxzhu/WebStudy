@@ -179,6 +179,12 @@
 >Number(> ceil, floor, pow, pi )    
 >String(> capitalize, upper&upcase, __len__[len]&length, replace&sub, escape, ''&"" )    
 
+- 2020-10-01
+
+>Variable    
+>Compare(> Boolean )    
+>Conditional(> if, elif&elsif, else )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -199,7 +205,7 @@
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
-1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)(14/111)
+1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)(24/111)
 
 - 공부 예정
 1. 한 눈에 읽는 루비 온 레일즈
