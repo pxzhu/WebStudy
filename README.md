@@ -190,6 +190,10 @@
 >LogicalOperation(> or[||], and[&&], not[!] )    
 >CheatSheet(> [OverAPI](http://overapi.com), [cheat-sheets](http://www.cheat-sheets.org) )    
 
+- 2020-10-03
+>Comment(> #, ''' 여러줄 문자열 표현[진짜 주석 아님] ''', =begin 권장하지 않음 =end )    
+>Container(> list )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -210,7 +214,7 @@
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
-1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)(30/111)
+1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)(37/111)
 
 - 공부 예정
 1. 한 눈에 읽는 루비 온 레일즈
