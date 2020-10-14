@@ -219,6 +219,10 @@
 >Override(> super )    
 >Object_Moudle
 
+- 2020-10-14
+>Mulitple-Inheritance(> Mixin )    
+>Pakage_Manager(> PIP[pip install requests, pip install beautifulsoup4]&RubyGems[gem install http, gem install nokogiri], Crawling )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
@@ -239,7 +243,7 @@
 1. [바로실습] 생활코딩 - 자바스크립트(Javascript)
 1. [바로실습] 생활코딩 - WEB3:익스프레스(Express)
 1. 생활코딩 - 리액트 (React)
-1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)(100/111)
+1. [생활코딩 - Python & Ruby](https://opentutorials.org/course/1750)
 
 - 공부 예정
 1. 한 눈에 읽는 루비 온 레일즈
