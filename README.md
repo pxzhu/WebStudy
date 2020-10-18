@@ -1,5 +1,5 @@
-#### Web Study with 생활코딩, 구름
-#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, DATABASE, MySQL, Lowdb, PHP, Express, React, Python, Ruby
+#### Web Study with 생활코딩, Karoid
+#### HTML, CSS, JAVASCRIPT, Node.js, NETWORK, DATABASE, MySQL, Lowdb, PHP, Express, React, Python, Ruby, Ruby on Rails
 
 - 2020-07-26
 
@@ -224,7 +224,15 @@
 >Pakage_Manager(> PIP[pip install requests, pip install beautifulsoup4]&RubyGems[gem install http, gem install nokogiri], Crawling )    
 
 - 2020-10-18
->Setting MacOS in VMWare(> Install Ruby on rails )    
+>Setting MacOS in VMWare(> Installed Ruby on rails )    
+>Rails(> sudo rails new "Ruby on Rails" )    
+>Controller(> sudo rails generate controller "Controller_Name", Post.[new, all, find, destroy] )    
+>Routes(> GET['/route/:var1/var2'] )    
+>View(> erb[Embedded Ruby] )    
+>Server(> sudo rails server )    
+>Variable(> @[global], POST[skip_forgery_protection] )    
+>Model(> sudo rails generate model "Model_Name" )    
+>Migration(> sudo rake db:migrate )    
 
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
@@ -239,7 +247,7 @@
 1. [바로실습] 생활코딩 - WEB2:PHP
 1. 생활코딩 - SQL JOIN
 1. 생활코딩 - 관계형 데이터 모델링
-1. 생활코딩 - 정규표현식(9/22)
+1. 생활코딩 - 정규표현식(12/22)
 1. 생활코딩 - WEB2:Node.js - MySQL
 1. 생활코딩 - WEB3:PHP & MySQL
 1. 생활코딩 - WEB3:Ajax
