@@ -11,6 +11,7 @@ class HomeController < ApplicationController
     post.content = params[:content]
     post.save
 
+    
     redirect_to '/index'
   end
   def modify
