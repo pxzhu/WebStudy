@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # 예제
   get '/add' => 'calculator#add'
   post '/result' => 'calculator#result'
-  get '/result/:first/:second' => 'calculator#result'
+  get '/result/:first/:second' => 'calculrator#result'
   # CR
   get '/index' => 'home#index'
   get '/write' => 'home#write'

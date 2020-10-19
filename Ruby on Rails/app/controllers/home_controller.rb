@@ -11,7 +11,6 @@ class HomeController < ApplicationController
     post.content = params[:content]
     post.save
 
-    
     redirect_to '/index'
   end
   def modify
@@ -27,7 +26,7 @@ class HomeController < ApplicationController
   end
   def delete
     Post.destroy(params[:post_id])
-    
+
     redirect_back(fallback_location: '/index')
   end
 end
