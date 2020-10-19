@@ -234,6 +234,12 @@
 >Model(> sudo rails generate model "Model_Name" )    
 >Migration(> sudo rake db:migrate )    
 
+- 2020-10-19
+>Gem(> Scaffolding, kaminari, Carrierwave, Devise, CanCanCan, Rolify, ... )    
+>Scaffolding(> sudo rails generate scaffold "Name" "Column_Name:DataType" ...""... "Column_Name:DataType" > sudo rake db:migrate )    
+>Devise(> Gemfile[gem 'devise'], sudo bundle install, sudo rails generate devise:install, sudo rails generate devise user, sudo rake db:migrate )    
+>RESTful(> client&server, stateless, cacheable, layered system, code on demand[optional], interface consistency )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS

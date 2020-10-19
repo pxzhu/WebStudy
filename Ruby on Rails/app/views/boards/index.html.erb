@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<%= current_user.email %>님 환영합니다.
+<%= user_signed_in? %>
+<a href="/users/sign_out" data-method="delete">로그아웃</a>
+
+<h1>Boards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Content</th>
+      <th>Title</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @boards.each do |board| %>
+      <tr>
+        <td><%= board.content %></td>
+        <td><%= board.title %></td>
+        <td><%= link_to 'Show', board %></td>
+        <td><%= link_to 'Edit', edit_board_path(board) %></td>
+        <td><%= link_to 'Destroy', board, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Board', new_board_path %>
