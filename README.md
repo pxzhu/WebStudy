@@ -240,6 +240,11 @@
 >Devise(> Gemfile[gem 'devise'], sudo bundle install, sudo rails generate devise:install, sudo rails generate devise user, sudo rake db:migrate )    
 >RESTful(> client&server, stateless, cacheable, layered system, code on demand[optional], interface consistency )    
 
+- 2020-12-29
+>Elements(> Semantic, Non-Semantic )    
+>Attribute(> target )    
+>Tag(> input )    
+
 - 공부 순서
 1. 생활코딩 - WEB1:HTML & Internet
 1. [바로실습] 생활코딩 - WEB2:CSS
