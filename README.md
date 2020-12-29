@@ -264,3 +264,4 @@
 1. [Ruby on rails 기초](https://opentutorials.org/module/2879)
 
 - 공부 예정
+1. [웹 튜토리얼](https://poiemaweb.com/)
